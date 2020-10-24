@@ -57,7 +57,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 3s;
+  animation-duration: 3s;
 
 
 }
@@ -65,7 +65,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 3s;
+  animation-duration: 3s;
 
 
 }
@@ -74,7 +74,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 3s;
+  animation-duration: 3s;
 
 
 }
@@ -82,7 +82,7 @@ footer{
 @keyframes logo_wiggle{
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 3s;
+  animation-duration: 3s;
 
 
 } 
@@ -90,6 +90,7 @@ footer{
 #logo{
   -webkit-animation-name:logo_wiggle;
   -moz-animation-name:logo_wiggle;
+  -o-animation-name:logo_wiggle;
   animation-name: logo_wiggle;
   animation-duration: 3s;
 
