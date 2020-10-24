@@ -57,7 +57,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 15s;
+  transition-duration: 3s;
 
 
 }
@@ -65,7 +65,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 15s;
+  transition-duration: 3s;
 
 
 }
@@ -74,7 +74,7 @@ footer{
   /*Your code here.*/
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 15s;
+  transition-duration: 3s;
 
 
 }
@@ -82,9 +82,8 @@ footer{
 @keyframes logo_wiggle{
   from{ width: 25px; }
   to {width: 420px;}
-  transition-duration: 15s;
+  transition-duration: 3s;
 
-  /*Your code here.*/
 
 } 
 
@@ -102,10 +101,10 @@ footer{
     min-height: 500px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;/*Don't forget to vertically and horizontally alight the card*/
     align-items: center;
 
-      /*Don't forget to vertically and horizontally alight the card*/
+      
   
 }
 
@@ -118,9 +117,6 @@ footer{
   justify-content: center;
   align-items: center;
   flex-basis: 400px;
-
-  /*Your code here.*/
-  /*Take a look at flex-basis*/
 
 }
 
@@ -258,7 +254,6 @@ header{
     display: none;
   }
   
-  /*You will want four selectors*/  
 }
 
 /*Add media query to handle reduced-motion*/
